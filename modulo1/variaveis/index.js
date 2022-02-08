@@ -21,10 +21,10 @@ sugiro o código ser assim:
 let horasTrabalhada = prompt("Quantas horas você trabalha por dia?")
 let salarioMes = prompt("Quanto você recebe por mês?")
 let diasUteis = prompt ("Quantos dias você trabalha por mês?")
-alert(`Você recebe ${mês/[horas*dias uteis]} por hora*)*/
+alert(`Você recebe ${salarioMes/[horasTrabalhada*diasUteis]} por hora*)*/
 
 
-let nomeUsuario
+/*let nomeUsuario
 let idadeUsuario 
 
 console.log(typeof nomeUsuario)
@@ -57,4 +57,10 @@ b = c
 
 
 console.log("O novo valor de a é", a) 
-console.log("O novo valor de b é", b) 
+console.log("O novo valor de b é", b)*/
+
+let primeiroNumero = prompt ("Escolha um numero")
+let segundoNumero = prompt ("Escolha outro numero")
+
+console.log ("O primeiro número somado ao segundo número resulta em:", Number(primeiroNumero)+Number(segundoNumero))
+console.log ("O primeiro número multiplicado pelo segundo número resulta em:", Number(primeiroNumero)*Number(segundoNumero))
