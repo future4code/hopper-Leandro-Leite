@@ -1,6 +1,4 @@
-/*
-
-1)
+/*1)
 let valor = 0
 for(let i = 0; i < 5; i++) {
   valor += i
@@ -92,4 +90,4 @@ for(var i = 0; i < arrayOriginal.length-1; i++){
         menorNumero = arrayOriginal[i]
     }
 }
-console.log(`O maior número é ${maiorNumero}, e o menor número é ${menorNumero}`)
+console.log(`O maior número é ${maiorNumero}, e o menor número é ${menorNumero}`)*/
