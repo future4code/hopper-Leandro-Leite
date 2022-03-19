@@ -1,0 +1,44 @@
+"Faça um resumo sobre quais são os 7 passos fundamentais para a resolução de problemas 
+e como eles podem nos ajudar a solucionar nossos desafios de programação."
+
+a) 
+1 - Ter Atenção no Enunciado:
+Leia o enunciado com atenção;
+Pergunte: O que o código deve fazer?
+Identifique informações únicas, que farão a diferença.
+
+2 - Retirar Informações Relevantes:
+Separar palavras chaves, como nome de variáveis;
+Verbos criarão funções;
+Há alguma condição para a existência do código?
+
+3 - Pensar nas Entradas e Saídas:
+Como e quais serão os dados recebidos?
+Qual/Quais devem ser as possíveis respostas(formato) código? 
+Criar uma função, com as entradas e saídas pensadas.
+
+4 - Fazer Um Esquema Visual:
+Crie exemplos de situações antes;
+Monte diagramas com a lógica do código;
+Pense nos possíveis cenários e coloque inputs e outputs.
+
+5 - Criar Um Código Feio:
+Não tenha medo! Coloque no papel todas possíveis soluções pensadas;
+Escolha as melhores soluções e ponha em sua IDE;
+Teste cada uma das soluções, até obter uma resposta como solicitada no enunciado.
+
+6 - Testar: Força-Bruta:
+Solução óbvia e pouco performática;
+Escrever no nosso idioma o programa;
+Transcrever para a linguagem de programação desejada.
+
+7 - Refatorar:
+Dê bons nomes para as variáveis e funções;
+Separe as funções de cada elemento;
+Comece com as etapas principais.
+
+b) Eles podem nos ajudar por conta de quê cria um processo, que não paralisia a criatividade
+ e permite continuar até chegar a "verdade dificuldade", que facilitará a pesquisa do problema
+
+
+
