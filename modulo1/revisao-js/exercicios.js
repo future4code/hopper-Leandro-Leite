@@ -5,7 +5,7 @@
 
 // EXERCÍCIO 01
 function retornaTamanhoArray(array) {
-  const retornaTamanhoArray = ["Azul","Amarelo","Vermelho"] 
+
  return array.length
 }
 
@@ -18,8 +18,12 @@ function retornaArrayInvertido(array) {
  
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  
+    array.sort(function(a, b) {
+        return a-b
+      })
+      return array
 }
+
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
