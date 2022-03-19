@@ -27,9 +27,12 @@ function retornaArrayOrdenado(array) {
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-  
+   var pares = function (item){
+return !(item % 2);
+   }
+   return array.filter(pares)
 }
-
+   
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
  
