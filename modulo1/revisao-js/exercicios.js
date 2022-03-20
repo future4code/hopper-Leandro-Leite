@@ -35,8 +35,17 @@ return !(item % 2);
    
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
-}
+   const elevadoAoQuadrado = array.map((numero) => {
+       return numero * numero;
+   });
+   const pares = elevadoAoQuadrado.filter((item) => {
+       if (item % 2 === 0) {
+           return array
+       }
+   });
+   return pares;
+};
+
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
