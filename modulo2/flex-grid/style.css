@@ -1,0 +1,31 @@
+
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+  }
+
+  header{
+    width: 100%;
+    background-color: mediumvioletred;
+  }
+
+  footer{
+     padding: 20px;
+     background: mediumvioletred;
+     margin-top: 50px;
+     justify-content: center;
+  }
+  
+  footer dt {
+    font-weight: bold;
+  }
+
+footer dd {
+ margin-left: 0;
+}
+
+footer div {
+text-align: right;
+
+}

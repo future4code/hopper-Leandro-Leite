@@ -1,4 +1,4 @@
-ˋˋˋJS
+```JS
 function calculaSalario(qtdeCarrosVendidos, valorTotalVendas) {
  // Escreva seu código aqui
 
@@ -8,4 +8,5 @@ const salario = 2000+comissao
   
 return salario
   
-}ˋˋˋ
+}
+ˋˋˋ
