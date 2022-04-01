@@ -1,0 +1,11 @@
+1
+#pond {
+    display: flex;
+   justify-content: flex-end;
+  }
+
+  2
+  #pond {
+    display: flex;
+   justify-content: center;
+  }

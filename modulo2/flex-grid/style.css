@@ -14,7 +14,7 @@
      padding: 20px;
      background: mediumvioletred;
      margin-top: 50px;
-     justify-content: center;
+     
   }
   
   footer dt {
@@ -28,4 +28,13 @@ footer dd {
 footer div {
 text-align: right;
 
+}
+
+#container {
+    background-color: #f2d0e0;
+    height: 100vh;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
 }
