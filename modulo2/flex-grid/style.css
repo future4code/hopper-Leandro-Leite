@@ -1,45 +1,47 @@
+.conteiner {
+    display: grid;
 
-   *{
-    padding: 0;
-    margin: 0;
-    box-sizing: content-box;
-  }
+    grid-template-columns: 
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas:
+        "header header"
+        "aside section"
+        "footer footer";
+}
 
-  header{
+
+
+header {
     width: 100%;
     background-color: mediumvioletred;
-    text: width="10"
-  }
+    font-size: 10px;
+    grid-area: header;
+}
 
-  footer{
-     padding: 20px;
-     background: mediumvioletred;
-          
-  }
-  
-  footer dt {
+aside {
+    background: #f2d0e0;
+    grid-area: aside;
+}
+
+section {
+    background: white;
+    grid-area: section;
+}
+
+footer {
+    padding: 20px;
+    background: mediumvioletred;
+    grid-area: footer;
+}
+
+footer dt {
     font-weight: bold;
-  }
 
-footer dd {
- margin-left: 0;
-}
 
-footer div {
-text-align: right;
 
 }
 
-#container {
-    background-color: #f2d0e0;
-    height: 100vh;
-    padding: 10px;
-
-    display: flex;
-    flex-direction: column;
-}
-
-#rodape{
+#rodape {
 
 
     display: flex;
