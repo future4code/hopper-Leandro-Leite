@@ -35,7 +35,7 @@ main{
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    background-color: white
+    background-color: white;
     flex: 4;
 }
 
@@ -53,5 +53,7 @@ main{
 footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     background-color: mediumvioletred;
+ font-size: 10px;
 }
