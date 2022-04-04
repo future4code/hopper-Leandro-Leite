@@ -2,6 +2,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: mediumvioletred;
 }
 
 .ícone {
@@ -14,27 +15,28 @@ header {
 main{
     display: flex;
     flex-direction: row;
-    flex: ;
+   
 }
 
 .menu {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
-    flex: 1px;
+    background-color: #f2d0e0;
+    flex: 1;
 }
 
 .botao{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .vitrine {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    background-color: grey;
-    flex: 1000px;
+    background-color: white
+    flex: 4;
 }
 
 .bloco.produto{
@@ -42,4 +44,14 @@ main{
     flex-direction: column;
     border: 1px solid grey;
     ;
+}
+
+.textobotao{
+    flex: 2
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: mediumvioletred;
 }
