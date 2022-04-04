@@ -25,11 +25,7 @@ main{
     flex: 1;
 }
 
-.botao{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 .vitrine {
     display: flex;
