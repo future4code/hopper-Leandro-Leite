@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.ícone {
+    height: 20px;
+}
+.bolo{
+    height: 180px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2d0e0;
+    flex: 1;
+}
+
+
+
+.vitrine {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    background-color: white;
+    flex: 4;
+}
+
+.bloco.produto{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    ;
+}
+
+.textobotao{
+    flex: 2
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: mediumvioletred;
+ font-size: 10px;
+}
