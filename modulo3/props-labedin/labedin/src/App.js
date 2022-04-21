@@ -32,7 +32,7 @@ function App() {
         <CardPequeno
           imagem="" 
           nome="Endereço:" 
-          descricao="" 
+          descricao="Rua x" 
         />
 </div>
       <div className="page-section-container">
