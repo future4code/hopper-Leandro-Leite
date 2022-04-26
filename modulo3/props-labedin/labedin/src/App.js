@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Eu from './components/imgs/eu.png'
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
 import CardPequeno from './components/CardPequeno/CardPequeno';
@@ -10,7 +11,7 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem="https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png" 
+          imagem={Eu} 
           nome="Leandro" 
           descricao="Oi, eu sou o Leandro. Nascido em Santos, mas morando em SP desde 2018"
         />
