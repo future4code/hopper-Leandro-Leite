@@ -285,11 +285,15 @@ class App extends React.Component {
                       </h3>
                       <div>
                         <img
+                        className="adicionar"
+                         alt="adicionar música"
                           src={add}
                           width="25vh"
                           onClick={() => this.criaIdPlaylist(play.id)}
                         />
                         <img
+                         className="deletar"
+                         alt="deletar musica/playlist"
                           src={apagar}
                           width="25vh"
                           onClick={() => this.deletaPlaylist(play.id)}
@@ -313,11 +317,15 @@ class App extends React.Component {
                       </div>
                       <div>
                         <img
+                         className="play"
+                         alt="tocar música"
                           src={tocar}
                           width="25vh"
                           onClick={() => this.tocarMusicas(musica)}
                         />
                         <img
+                         className="deletar"
+                         alt="deletar música"
                           src={apagar}
                           width="25vh"
                           onClick={() => this.deletaMusicas(musica.id)}
