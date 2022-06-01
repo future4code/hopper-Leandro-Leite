@@ -13,7 +13,7 @@ const InputComment = styled.input `
 `
 
 const SecaoComentario = (props) => {
-
+	const [curtido, setCurtido] = useState(false);
 
 	const onChangeComentario = (event) => {
 	}
