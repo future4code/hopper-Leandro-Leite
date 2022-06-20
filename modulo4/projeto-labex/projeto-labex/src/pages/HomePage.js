@@ -67,9 +67,9 @@ function HomePage(){
         <Button>Área do Adm</Button>
        </Nav>
     </div>
-)
-    }
-function HomePage() {
+)}
+
+const HomePage = () => {
 
     const navigate = useNavigate();
 
@@ -90,5 +90,6 @@ function HomePage() {
                 <Button onClick={() => navigate("/login")}>Área do Adm</Button>
             </Nav>
         </div>
-    )
-}
+    )}
+
+export default HomePage;
