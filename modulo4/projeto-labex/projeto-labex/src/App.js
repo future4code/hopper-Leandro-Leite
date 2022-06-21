@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ListTripsPage from './pages/ListTripsPage';
 import ApplicationFormPage from './pages/ApplicationFormPage';
@@ -13,7 +13,7 @@ import TripDetailsPage from './pages/TripDetailsPage';
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+   
 
 
       <BrowserRouter>
